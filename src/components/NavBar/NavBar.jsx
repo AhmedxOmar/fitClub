@@ -31,9 +31,6 @@ const NavBar = ({onOpenSideCart}) => {
         <div><PiUserSquare style={style} />
           <span className='navButtons'>Profile</span>
         </div>
-        <div onClick={handleOpenSideCart}><CiShoppingCart style={style} />
-          <span className='navButtons'>Cart</span>
-        </div>
       </div>
     </div>
   );
