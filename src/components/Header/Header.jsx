@@ -42,11 +42,7 @@ const Header = () => {
                             Testimonials
                         </Link>
                     </li>
-                    <li className="lastLink">
-                        <LinkPage to="/store">
-                        Store
-                        </LinkPage>
-                    </li>
+
                 </ul>
             }
             {menuOpened && <div className="overlay" onClick={()=>setMenuOpened(false)}></div>}
